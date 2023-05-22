@@ -126,7 +126,22 @@ function Transactions(){
                 </div>
                 
                 <div className="pagination p-3 flex justify-end">
-                    <div className="grid grid-cols-9 py-0.5 text-gray-500 border rounded w-3/12">
+                    <div className="
+                    grid 
+                    grid-cols-9 
+                    py-0.5 
+                    text-gray-500 
+                    border 
+                    rounded 
+                    w-3/12
+                    xxs:w-11/12 
+                    xs:w-11/12 
+                    sm:w-8/12 
+                    md:w-6/12 
+                    lg:w-5/12 
+                    xl:w-3/12 
+                    xxl:w-3/12 
+                    ">
                         <div className="flex items-center justify-center cursor-pointer">
                             <i className='bx bx-chevron-left'></i>
                         </div>
