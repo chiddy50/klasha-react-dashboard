@@ -151,10 +151,10 @@ function Dashboard(){
                     xxl:col-span-2  
                     ">
                         <div className="flex items-center">
-                            <p className="font-bold text-sm border-r border-gray-300 pr-3">Sales</p>
-                            <p className="font-bold text-sm text-red-600 pl-3">7 days</p>
+                            <p className="font-bold text-xs border-r border-gray-300 pr-3">Sales</p>
+                            <p className="font-bold text-xs text-red-600 pl-3">7 days</p>
                         </div>
-                        <p className="font-bold text-sm mx-2">30 days</p>
+                        <p className="font-bold text-xs ">30 days</p>
                         <button className="flex items-center px-3 py-1.5 rounded border border-black border-rounded">
                             <span className="text-xs">USD</span>
                             <i className='bx bx-chevron-down'></i>
