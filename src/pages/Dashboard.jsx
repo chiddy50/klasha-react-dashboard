@@ -47,12 +47,10 @@ function Dashboard(){
         series: [
             {
                 name: "&#8358;",
-                data: [2001, 1045, 1400, 1200, 1899, 1640]
+                data: [2001, 1045, 4000, 1200, 1899, 1640]
             }
         ]
     };
-
-
 
     const countries = ['Nigeria', 'Ghana', 'Togo', 'Libya']
 
@@ -113,7 +111,7 @@ function Dashboard(){
                     <div className="mixed-chart">
                         <AreaChart 
                         categories={['Mon','Tue','Wed', 'Thu', 'Fri', 'Sat', 'Sun']} 
-                        series={[10, 41, 35, 51, 49, 62, 69]}
+                        series={[10, 41, 35, 51, 4, 62, 69]}
                         />
                     </div>
 

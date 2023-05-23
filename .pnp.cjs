@@ -42,6 +42,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-apexcharts", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:1.4.0"],\
             ["react-dom", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:18.2.0"],\
             ["react-router-dom", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:6.11.2"],\
+            ["sass", "npm:1.62.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:4.3.8"]\
           ],\
@@ -2404,6 +2405,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["immutable", [\
+        ["npm:4.3.0", {\
+          "packageLocation": "./.yarn/cache/immutable-npm-4.3.0-6120b6947c-bbd7ea99e2.zip/node_modules/immutable/",\
+          "packageDependencies": [\
+            ["immutable", "npm:4.3.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["import-fresh", [\
         ["npm:3.3.0", {\
           "packageLocation": "./.yarn/cache/import-fresh-npm-3.3.0-3e34265ca9-2cacfad06e.zip/node_modules/import-fresh/",\
@@ -2797,6 +2807,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-apexcharts", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:1.4.0"],\
             ["react-dom", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:18.2.0"],\
             ["react-router-dom", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:6.11.2"],\
+            ["sass", "npm:1.62.1"],\
             ["tailwindcss", "npm:3.3.2"],\
             ["vite", "virtual:9e5b245f0f9f733476357557dbaeb0e1eaac844d4247e1f0e4ba83a45bcd40d6348dedf2646d5a06119b35853a622cc55dd2480eb16793a4a6a2bc1b9b8cc856#npm:4.3.8"]\
           ],\
@@ -3882,6 +3893,18 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["sass", [\
+        ["npm:1.62.1", {\
+          "packageLocation": "./.yarn/cache/sass-npm-1.62.1-c16d65fd28-1b1b3584b3.zip/node_modules/sass/",\
+          "packageDependencies": [\
+            ["sass", "npm:1.62.1"],\
+            ["chokidar", "npm:3.5.3"],\
+            ["immutable", "npm:4.3.0"],\
+            ["source-map-js", "npm:1.0.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["scheduler", [\
         ["npm:0.23.0", {\
           "packageLocation": "./.yarn/cache/scheduler-npm-0.23.0-a379a6bc3b-d79192eeaa.zip/node_modules/scheduler/",\
@@ -4458,7 +4481,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["less", null],\
             ["postcss", "npm:8.4.23"],\
             ["rollup", "npm:3.22.0"],\
-            ["sass", null],\
+            ["sass", "npm:1.62.1"],\
             ["stylus", null],\
             ["sugarss", null],\
             ["terser", null]\
