@@ -31,7 +31,7 @@ const Sidebar = () => {
                         <div className="mt-7">
                             <h2 className="text-gray-400 text-sm">Main pages</h2>
                         </div>
-                        <div className="flex flex-col gap-2 mt-3">
+                        <div className="flex flex-col gap-3 mt-3">
                             
                             <Link to="/" className={location.pathname === '/' ? 'active__link' : ''}>
                                 <p className="flex items-center gap-2 cursor-pointer">
@@ -71,7 +71,7 @@ const Sidebar = () => {
                         <div className="mt-7">
                             <h2 className="text-gray-400 text-sm">Accept Payments</h2>
                         </div>
-                        <div className="flex flex-col gap-2 mt-2">
+                        <div className="flex flex-col gap-3 mt-2">
                             <p className="flex items-center gap-2 cursor-pointer">
                                 <img src={checkout_icon} width="18" alt="checkout_icon" />
                                 <span className="text-sm">Checkout</span>
