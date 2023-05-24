@@ -1,4 +1,14 @@
 import { Link, useLocation } from "react-router-dom";
+import klasha__logo from '../assets/icons/klasha__logo.svg'
+import dashboard_icon from '../assets/icons/dashboard.svg'
+import marketing_icon from '../assets/icons/marketing.svg'
+import wallet_icon from '../assets/icons/wallet.svg'
+import transactions_icon from '../assets/icons/transactions.svg'
+import analytics_icon from '../assets/icons/analytics.svg'
+import exchange_rates_icon from '../assets/icons/exchange_rates.svg'
+import checkout_icon from '../assets/icons/checkout.svg'
+import payment_links_icon from '../assets/icons/payment_links.svg'
+import wire_icon from '../assets/icons/wire.svg'
 
 const Sidebar = () => {
     const location = useLocation();
@@ -14,7 +24,7 @@ const Sidebar = () => {
 
                     <div>
                         <div className="sidebar__logo">
-                            <h1 className="font-bold text-xl">KLASHA</h1>
+                            <img src={klasha__logo} alt="logo" />
                             <i onClick={closeSidebar}  className='bx bx-x-circle pr-4 text-2xl text-gray-500 cursor-pointer'></i>
                         </div>
 
@@ -25,35 +35,35 @@ const Sidebar = () => {
                             
                             <Link to="/" className={location.pathname === '/' ? 'active__link' : ''}>
                                 <p className="flex items-center gap-2 cursor-pointer">
-                                    <i className='bx bx-pie-chart-alt text-xl' ></i>
+                                    <img src={dashboard_icon} width="18" alt="dashboard icon" />
                                     <span className="text-sm">Dashboard</span>
                                 </p>
                             </Link>
 
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-wallet text-xl' ></i>
+                                <img src={wallet_icon} width="18" alt="wallet icon" />
                                 <span className="text-sm">Balances</span>
                             </p>
 
                             <Link to="/transactions" className={location.pathname === '/transactions' ? 'active__link' : ''}>
                                 <p className="flex items-center gap-2 cursor-pointer">
-                                    <i className='bx bx-transfer text-xl' ></i>
+                                    <img src={transactions_icon} width="18" alt="transactions icon" />
                                     <span className="text-sm">Transactions</span>
                                 </p>
                             </Link>
 
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-bar-chart-alt-2 text-xl' ></i>
+                                <img src={analytics_icon} width="18" alt="analytics_icon" />
                                 <span className="text-sm">Analytics</span>
                             </p>
 
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-alarm text-xl' ></i>
+                                <img src={marketing_icon} width="18" alt="marketing icon" />
                                 <span className="text-sm">Marketing</span>
                             </p>
 
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-recycle text-xl'></i>
+                                <img src={exchange_rates_icon} width="18" alt="exchange_rates_icon" />
                                 <span className="text-sm">Exchange rates</span>
                             </p>
                         </div>
@@ -63,12 +73,12 @@ const Sidebar = () => {
                         </div>
                         <div className="flex flex-col gap-2 mt-2">
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-cart text-xl'></i>
+                                <img src={checkout_icon} width="18" alt="checkout_icon" />
                                 <span className="text-sm">Checkout</span>
                             </p>
 
                             <p className="flex items-center gap-2 cursor-pointer">
-                                <i className='bx bx-link text-xl'></i>
+                                <img src={payment_links_icon} width="18" alt="checkout_icon" />
                                 <span className="text-sm">Payment Links</span>
                             </p>
                         </div>
@@ -78,7 +88,7 @@ const Sidebar = () => {
                         </div>
                         <div className="flex flex-col gap-2 mt-2">
                             <p className="flex items-center gap-2 cursor-pointer">
-                            <i className='bx bx-transfer text-xl' ></i>
+                                <img src={wire_icon} width="18" alt="checkout_icon" />                                
                                 <span className="text-sm">Wire</span>
                             </p>
                         </div>

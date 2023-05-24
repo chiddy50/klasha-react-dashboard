@@ -1,3 +1,4 @@
+import user_icon from '../assets/icons/user.svg'
 
 const Header = () => {
 
@@ -18,7 +19,8 @@ const Header = () => {
             
             <div className="flex items-center gap-3">
                 <div className="flex items-center cursor-pointer">
-                    <i className='bx bx-user-circle text-3xl'></i>
+                    {/* <i className='bx bx-user-circle text-3xl'></i> */}
+                    <img src={user_icon} alt="dashboard icon" />
                     <i className='bx bx-chevron-down text-xl'></i>
                 </div>
                 <div className="flex items-center cursor-pointer">
