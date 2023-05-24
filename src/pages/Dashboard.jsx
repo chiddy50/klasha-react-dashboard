@@ -19,7 +19,7 @@ function Dashboard(){
             dataLabels: {
               enabled: false
             },
-            colors: ['#ff4545'],
+            colors: ['#EF2C5A'],
             stroke: {
               curve: 'straight'
             },
@@ -258,7 +258,7 @@ function Dashboard(){
                 flex 
                 flex-col 
                 justify-between 
-                bg-red-500 
+                background__red
                 rounded-md 
                 p-5 
                 dashboard__stats

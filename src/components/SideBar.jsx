@@ -85,7 +85,7 @@ const Sidebar = () => {
                     </div>
 
                     <div className="mb-7">
-                        <button className="flex items-center justify-between gap-2 mb-3 rounded-3xl py-2 px-3 bg-red-500 text-white w-fit">
+                        <button className="flex items-center justify-between gap-2 mb-3 rounded-3xl py-2 px-3 background__red text-white w-fit">
                             <div className="flex items-center justify-center w-5 h-5 rounded-full border border-white">
                                 <i className='bx bx-question-mark text-xs'></i>
                             </div>

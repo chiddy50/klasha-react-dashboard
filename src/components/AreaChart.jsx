@@ -17,7 +17,7 @@ const AreaChart = ({ categories, series }) => {
             dataLabels: {
               enabled: false
             },
-            colors: ['#ff4545'],
+            colors: ['#EF2C5A'],
             stroke: {
               curve: 'straight'
             },
