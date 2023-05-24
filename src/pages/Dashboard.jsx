@@ -258,7 +258,7 @@ function Dashboard(){
                 flex 
                 flex-col 
                 justify-between 
-                background__red
+                bg-custom-red
                 rounded-md 
                 p-5 
                 dashboard__stats

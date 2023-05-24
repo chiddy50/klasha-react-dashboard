@@ -12,6 +12,10 @@ module.exports = {
         xl: '1280px',
         xxl: '1536px',
       },
+      colors: {
+        'light-yellow': '#FFFBF7',
+        'custom-red': '#EF2C5A'
+      },
     },
   },
   plugins: [],

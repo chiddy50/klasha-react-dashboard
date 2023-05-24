@@ -18,7 +18,7 @@ const Sidebar = () => {
     }   
 
     return (
-        <div id="sidebar" className="admin__sidenav h-full top-0 left-0 overflow-x-hidden pt-5 pl-7 fixed bg-yellow-50 ">
+        <div id="sidebar" className="admin__sidenav h-full top-0 left-0 overflow-x-hidden pt-5 pl-7 fixed bg-light-yellow ">
 
                 <div className="flex flex-col justify-between h-full">
 
@@ -31,7 +31,7 @@ const Sidebar = () => {
                         <div className="mt-7">
                             <h2 className="text-gray-400 text-sm">Main pages</h2>
                         </div>
-                        <div className="flex flex-col gap-3 mt-3">
+                        <div className="flex flex-col gap-4 mt-3">
                             
                             <Link to="/" className={location.pathname === '/' ? 'active__link' : ''}>
                                 <p className="flex items-center gap-2 cursor-pointer">
@@ -71,7 +71,7 @@ const Sidebar = () => {
                         <div className="mt-7">
                             <h2 className="text-gray-400 text-sm">Accept Payments</h2>
                         </div>
-                        <div className="flex flex-col gap-3 mt-2">
+                        <div className="flex flex-col gap-4 mt-2">
                             <p className="flex items-center gap-2 cursor-pointer">
                                 <img src={checkout_icon} width="18" alt="checkout_icon" />
                                 <span className="text-sm">Checkout</span>
@@ -95,7 +95,7 @@ const Sidebar = () => {
                     </div>
 
                     <div className="mb-7">
-                        <button className="flex items-center justify-between gap-2 mb-3 rounded-3xl py-2 px-3 background__red text-white w-fit">
+                        <button className="flex items-center justify-between gap-2 mb-3 rounded-3xl py-2 px-3 bg-custom-red text-white w-fit">
                             <div className="flex items-center justify-center w-5 h-5 rounded-full border border-white">
                                 <i className='bx bx-question-mark text-xs'></i>
                             </div>
